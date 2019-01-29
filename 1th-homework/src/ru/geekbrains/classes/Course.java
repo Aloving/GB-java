@@ -5,7 +5,7 @@ import ru.geekbrains.classes.obstacles.Obstacle;
 public class Course {
     Obstacle obstacles[];
 
-    Course(Obstacle obstacles[]) {
+    Course(Obstacle ...obstacles) {
         this.obstacles = obstacles;
     }
 

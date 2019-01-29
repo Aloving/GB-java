@@ -17,13 +17,11 @@ public class Application {
                 new Robot("Вертер", 50, 50, 50),
         };
 
-        Obstacle[] obstacles = new Obstacle[] {
+        Course course = new Course(
                 new Cross(5),
                 new Wall(3),
                 new Water(7)
-        };
-
-        Course course = new Course(obstacles);
+        );
         Team team = new Team("At last", participants);
 
         course.doIt(team);

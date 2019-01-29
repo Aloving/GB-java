@@ -4,7 +4,7 @@ public class Team {
     private Participant[] participants;
     private String name;
 
-    private Team(String name, Participant[] participants) {
+    public Team(String name, Participant[] participants) {
         this.participants = participants;
         this.name = name;
     }

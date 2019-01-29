@@ -1,8 +1,8 @@
 package ru.geekbrains.classes;
 
 public class Team {
-    Participant[] participants;
-    String name;
+    private Participant[] participants;
+    private String name;
 
     private Team(String name, Participant[] participants) {
         this.participants = participants;
